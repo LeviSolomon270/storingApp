@@ -3,6 +3,9 @@
     <string name="enter_a_number">Enter a number</string>
     <string name="save_number">Save Number</string>
     <string name="clear_number">Clear Number</string>
-    <string name="no_number_stored">No number stored</string>
-    <string name="stored_number">Stored Number: %1$d</string>
+    <string name="no_number_stored">No numbers stored</string>
+    <string name="stored_number">Last Stored: %1$d</string>
+    <string name="calculate_average">Calculate Average</string>
+    <string name="average_result">Average: %1$.2f</string>
+    <string name="all_numbers">All Numbers: %1$s</string>
 </resources>
