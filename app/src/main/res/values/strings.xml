@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Numberstoring</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="save_number">Save Number</string>
+    <string name="clear_number">Clear Number</string>
+    <string name="no_number_stored">No number stored</string>
+    <string name="stored_number">Stored Number: %1$d</string>
 </resources>
