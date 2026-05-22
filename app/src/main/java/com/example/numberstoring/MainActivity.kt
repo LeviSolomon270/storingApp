@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun saveNumber() {
+     fun saveNumber() {
         val inputText = numberInput.text.toString()
         if (inputText.isNotEmpty()) {
             val numberToSave = inputText.toInt()
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun clearNumber() {
+     fun clearNumber() {
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
         sharedPref.edit {
             remove("saved_number")
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         storedNumberText.text = getString(R.string.no_number_stored)
     }
 
-    private fun displayStoredNumber() {
+     fun displayStoredNumber() {
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
         val savedNumber = sharedPref.getInt("saved_number", -1)
         
